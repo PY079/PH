@@ -518,9 +518,21 @@ while True:
                 time.sleep(0.5)
                 print(colorama.Fore.CYAN + '   39. Thousand Foot Krutch - Take It Out Me') 
                 time.sleep(0.5)
+                print(colorama.Fore.CYAN + '   40. Skillet - Back to Life') 
+                time.sleep(0.5)
+                print(colorama.Fore.CYAN + '   41. K.Flay - High Enough') 
+                time.sleep(0.5)
+                print(colorama.Fore.CYAN + '   42. Three Days Grace - So Called Life') 
+                time.sleep(0.5)
+                print(colorama.Fore.CYAN + '   43. Chvrches, Matt Berninger - My Enemy') 
+                time.sleep(0.5)
+                print(colorama.Fore.CYAN + '   44. Bishop Briggs - River') 
+                time.sleep(0.5)
+                print(colorama.Fore.CYAN + '   45. Disturbed - Liberate')
+                time.sleep(0.5)
                 print(Style.RESET_ALL)
                 print()
-                t = input('  Введите 1-39 --> ')
+                t = input('  Введите 1-70 --> ')
                 os.system('cls')
                 print()
                 print()
@@ -1031,6 +1043,138 @@ while True:
                     path = pathlib.Path('C:/Users/'+ user +'/01/Thousand Foot Krutch - Take It Out On Me.mp3')
                     if path.exists() == True:
                         os.system('"C:/Users/'+ user +'/01/Thousand Foot Krutch - Take It Out On Me.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                
+                if t == '40':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Skillet - Back to Life.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Skillet - Back to Life.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '41':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/K.Flay - High Enough.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/K.Flay - High Enough.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '42':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Three Days Grace - So Called Life.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Three Days Grace - So Called Life.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '43':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Chvrches, Matt Berninger - My Enemy.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Chvrches, Matt Berninger - My Enemy.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '44':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Bishop Briggs - River.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Bishop Briggs - River.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '45':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Disturbed - Liberate.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Disturbed - Liberate.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '46':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '47':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '48':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '49':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '50':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/.mp3"')
                         os.system('cls')
                         time.sleep(1)  
                     else:
