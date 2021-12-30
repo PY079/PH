@@ -449,90 +449,154 @@ while True:
    3. Alan Walker AAP Rocky - Live_Fast
    4. Alan Walker Imanbek - Sweet Dreams
    5. Alan Walker, ISK - Sorry''')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.WHITE + '   6. CHVRCHS - Miracle')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.CYAN + '   7. Clandestina')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.WHITE + '   8. Eminem - Rap God')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.GREEN + '   9. Eva Simons - Bludfire')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.CYAN + '   10. Hans Zimmer - End Credits')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.WHITE + '   11. Katy Perry, Juicy J - Dark_Horse')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.GREEN + '   12. Alan Walker - Legends Never Die')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.CYAN + '   13. Leonid Rudenko, ARITMIYA - Rain Sun')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.GREEN + '   14. Minelli - Rampampam')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.CYAN + '   15. Ness Barrett jxdn - la di die')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.WHITE + '   16. Parah Dice - Hot')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.GREEN + '   17. Steve Aoki, Alan Walker, Isak - Are You Lonely')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.CYAN + '   18. TOMYGONE Amvi s - What More')
-                time.sleep(0.5)
+                time.sleep(0.05)
                 print(colorama.Fore.CYAN + '   19. Oxxxymiron - Цунами') # всё начиная с 19 - скачать
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   20. Annodomini - Никто не нужен')
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   21. AC/DC - War machine')
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   22. AC/DC - T.N.T')
-                time.sleep(0.5)
+                time.sleep(0.05)
+                print(colorama.Fore.YELLOW + '   20. Annodomini - Никто не нужен')
+                time.sleep(0.05)
+                print(colorama.Fore.WHITE + '   21. AC/DC - War machine')
+                time.sleep(0.05)
+                print(colorama.Fore.GREEN + '   22. AC/DC - T.N.T')
+                time.sleep(0.05)
                 print(colorama.Fore.CYAN + '   23. AC/DC - Thunderstruck')
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   24. AC/DC - Highway to Hell')
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   25. AC/DC - Back in Black')
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   26. GHOSTEMANE - Fed Up')
-                time.sleep(0.5)
+                time.sleep(0.05)
+                print(colorama.Fore.WHITE + '   24. AC/DC - Highway to Hell')
+                time.sleep(0.05)
+                print(colorama.Fore.YELLOW + '   25. AC/DC - Back in Black')
+                time.sleep(0.05)
+                print(colorama.Fore.GREEN + '   26. GHOSTEMANE - Fed Up')
+                time.sleep(0.05)
                 print(colorama.Fore.CYAN + '   27. GHOSTEMANE - Venom')
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   28. $UICEDEBOY$ - LTE')
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   29. $UICEDEBOY$ - Paris')
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   30. Lil Peep - Star Shopping')
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   31. Король и Шут - Лесник')
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   32. Lost Frequencies - Reality')
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   33. The Score - Head Up')
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   34. DISTURBED - Old Friend')   
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   35. Король и Шут - Кукла колдуна') 
-                time.sleep(0.5)
+                time.sleep(0.05)
+                print(colorama.Fore.RED + '   28. $UICEDEBOY$ - LTE')
+                time.sleep(0.05)
+                print(colorama.Fore.WHITE + '   29. $UICEDEBOY$ - Paris')
+                time.sleep(0.05)
+                print(colorama.Fore.GREEN + '   30. Lil Peep - Star Shopping')
+                time.sleep(0.05)
+                print(colorama.Fore.YELLOW + '   31. Король и Шут - Лесник')
+                time.sleep(0.05)
+                print(colorama.Fore.RED + '   32. Lost Frequencies - Reality')
+                time.sleep(0.05)
+                print(colorama.Fore.GREEN + '   33. The Score - Head Up')
+                time.sleep(0.05)
+                print(colorama.Fore.WHITE + '   34. DISTURBED - Old Friend')   
+                time.sleep(0.05)
+                print(colorama.Fore.WHITE + '   35. Король и Шут - Кукла колдуна') 
+                time.sleep(0.05)
                 print(colorama.Fore.CYAN + '   36. БИ-2, oxxxymiron - Пора возвращаться домой') #дописать
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   37. Blues Saraceno - Dogs of War') 
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   38. БИ-2 - Большие города') 
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   39. Thousand Foot Krutch - Take It Out Me') 
-                time.sleep(0.5)
+                time.sleep(0.05)
+                print(colorama.Fore.GREEN + '   37. Blues Saraceno - Dogs of War') 
+                time.sleep(0.05)
+                print(colorama.Fore.YELLOW + '   38. БИ-2 - Большие города') 
+                time.sleep(0.05)
+                print(colorama.Fore.RED + '   39. Thousand Foot Krutch - Take It Out Me') 
+                time.sleep(0.05)
                 print(colorama.Fore.CYAN + '   40. Skillet - Back to Life') 
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   41. K.Flay - High Enough') 
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   42. Three Days Grace - So Called Life') 
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   43. Chvrches, Matt Berninger - My Enemy') 
-                time.sleep(0.5)
+                time.sleep(0.05)
+                print(colorama.Fore.GREEN + '   41. K.Flay - High Enough') 
+                time.sleep(0.05)
+                print(colorama.Fore.RED + '   42. Three Days Grace - So Called Life') 
+                time.sleep(0.05)
+                print(colorama.Fore.YELLOW + '   43. Chvrches, Matt Berninger - My Enemy') 
+                time.sleep(0.05)
                 print(colorama.Fore.CYAN + '   44. Bishop Briggs - River') 
-                time.sleep(0.5)
-                print(colorama.Fore.CYAN + '   45. Disturbed - Liberate')
-                time.sleep(0.5)
+                time.sleep(0.05)
+                print(colorama.Fore.YELLOW + '   45. Disturbed - Liberate')
+                time.sleep(0.05)
+                print(colorama.Fore.WHITE + '   46. Oxxxymiron, Porchy - Earth Burns') 
+                time.sleep(0.05)
+                print(colorama.Fore.GREEN + '   47. Papa Roach - Last Resort') 
+                time.sleep(0.05)
+                print(colorama.Fore.WHITE +  '   48. Slipknot - Dead Memories') 
+                time.sleep(0.05)
+                print(colorama.Fore.YELLOW + '   49. Dope - Die MF Die') 
+                time.sleep(0.05)
+                print(colorama.Fore.GREEN +  '   50. Slipknot - Before I Forget') 
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   51. Александр Пушной - Всё идёт по плану') 
+                time.sleep(0.05)
+                print(colorama.Fore.WHITE + '   52. Би-2 - Чёрное солнце') 
+                time.sleep(0.05)
+                print(colorama.Fore.GREEN+ '\n       Плейлист с oxxxymiron:')
+                time.sleep(2)
+                print(colorama.Fore.CYAN + '   53. Oxxxymiron - В книге всё было по-другому (4 раунд, 17ib)' )
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   54. Oxxxymiron - Дело нескольких минут (3 раунд, 17 ib)') 
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   55. Oxxxymiron, Самариддин Раджабов - Ветер перемен (2 раунд 17ib)') 
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   56. Oxxxymiron - В долгий путь (1 раунд 17ib)')
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   57. Oxxxymiron - До зимы') 
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   58. Oxxxymiron - Не от мира сего')
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   59. Oxxxymiron - Признаки жизни') 
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   60. Oxxxymiron - Детектор лжи') 
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   61. Oxxxymiron - Хитиновый покров') 
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   62. Oxxxymiron - Волапюк') 
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   63. Oxxxymiron - Больше Бена') 
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   64. Oxxxymiron - Цифры и цвета') 
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   65. Oxxxymiron - Где нас нет') 
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   66. Oxxxymiron - Башня из слоновой кости') 
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   67. Oxxxymiron - Слово мэра')
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   68. Oxxxymiron - Накануне')
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   69. Oxxxymiron - Полигон')
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   70. Oxxxymiron - Колыбельная')
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   71. Oxxxymiron - Переплетено')
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   72. Oxxxymiron - Всего лишь писатель')
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   73. Oxxxymiron - Кем ты стал')
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   74. Oxxxymiron - Город под подошвой')
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   75. Oxxxymiron ft. пиэм ft. J. Makonnen ft. Dinast ft. Letai ft. PALMDROPOV - Reality')
+                time.sleep(0.05)
+                print(colorama.Fore.CYAN + '   76. Oxxxymiron, Markul - Fata Morgana')
+                time.sleep(0.05)
                 print(Style.RESET_ALL)
                 print()
-                t = input('  Введите 1-70 --> ')
+                t = input('  Введите 1-76 --> ')
                 os.system('cls')
                 print()
                 print()
@@ -1124,9 +1188,9 @@ while True:
                         time.sleep(1)
                         
                 if t == '46':
-                    path = pathlib.Path('C:/Users/'+ user +'/01/.mp3')
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron, Porchy - Earth Burns.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/.mp3"')
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron, Porchy - Earth Burns.mp3"')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1136,9 +1200,9 @@ while True:
                         time.sleep(1)
                         
                 if t == '47':
-                    path = pathlib.Path('C:/Users/'+ user +'/01/.mp3')
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Papa Roach - Last Resort.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/.mp3"')
+                        os.system('"C:/Users/'+ user +'/01/Papa Roach - Last Resort.mp3"')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1148,9 +1212,9 @@ while True:
                         time.sleep(1)
                         
                 if t == '48':
-                    path = pathlib.Path('C:/Users/'+ user +'/01/.mp3')
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Slipknot - Dead Memories.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/.mp3"')
+                        os.system('"C:/Users/'+ user +'/01/Slipknot - Dead Memories.mp3"')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1160,9 +1224,9 @@ while True:
                         time.sleep(1)
                         
                 if t == '49':
-                    path = pathlib.Path('C:/Users/'+ user +'/01/.mp3')
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Dope - Die MF Die.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/.mp3"')
+                        os.system('"C:/Users/'+ user +'/01/Dope - Die MF Die.mp3"')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1172,9 +1236,9 @@ while True:
                         time.sleep(1)
                         
                 if t == '50':
-                    path = pathlib.Path('C:/Users/'+ user +'/01/.mp3')
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Slipknot - Before I Forget.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/.mp3"')
+                        os.system('"C:/Users/'+ user +'/01/Slipknot - Before I Forget.mp3"')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1182,6 +1246,323 @@ while True:
                         time.sleep(3.5)
                         os.system('cls')
                         time.sleep(1)
+                
+                if t == '51':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Александр Пушной - Всё идёт по плану.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Александр Пушной - Всё идёт по плану.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '52':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Би-2 - Чёрное солнце.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Би-2 - Чёрное солнце.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '53':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - В книге всё было по-другому (4 раунд, 17ib).mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - В книге всё было по-другому (4 раунд, 17ib).mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '54':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Дело нескольких минут (3 раунд, 17 ib).mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Дело нескольких минут (3 раунд, 17 ib).mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '55':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron, Самариддин Раджабов - Ветер перемен (2 раунд 17ib).mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron, Самариддин Раджабов - Ветер перемен (2 раунд 17ib).mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '56':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - В долгий путь (1 раунд 17ib).mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - В долгий путь (1 раунд 17ib).mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '57':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - До зимы.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - До зимы.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '58':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Не от мира сего.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Не от мира сего.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '59':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Признаки жизни.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Признаки жизни.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '60':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Детектор лжи.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Детектор лжи.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '61':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Хитиновый покров.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Хитиновый покров.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '62':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Волапюк.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Волапюк.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '63':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Больше Бена.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Больше Бена.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                        
+                if t == '64':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Цифры и цвета.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Цифры и цвета.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+                if t == '65':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Где нас нет.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Где нас нет.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+                if t == '66':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Башня из слоновой кости.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Башня из слоновой кости.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+                if t == '67':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Слово мэра.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Слово мэра.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+                if t == '68':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Накануне.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Накануне.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+                if t == '69':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Полигон.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Полигон.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+                if t == '70':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Колыбельная.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Колыбельная.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+                if t == '71':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Переплетено.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Переплетено.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+                if t == '72':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Всего лишь писатель.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Всего лишь писатель.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+                if t == '73':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Кем ты стал.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Кем ты стал.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+                if t == '74':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Город под подошвой.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Город под подошвой.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+                if t == '75':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron ft. пиэм ft. J. Makonnen ft. Dinast ft. Letai ft. PALMDROPOV - Reality.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron ft. пиэм ft. J. Makonnen ft. Dinast ft. Letai ft. PALMDROPOV - Reality.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+                if t == '76':
+                    path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron, Markul - Fata Morgana.mp3')
+                    if path.exists() == True:
+                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron, Markul - Fata Morgana.mp3"')
+                        os.system('cls')
+                        time.sleep(1)  
+                    else:
+                        print('         Этого фала нет в директории')
+                        time.sleep(3.5)
+                        os.system('cls')
+                        time.sleep(1)
+                                                
+               
+                        
+                
+                
                 
         if s == '11':
                 webbrowser.open_new_tab('https://disk.yandex.ru/client/disk')
