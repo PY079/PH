@@ -9,7 +9,7 @@ from colorama import Fore, Back, Style
 import pathlib
 from pathlib import Path
 from os import environ, getcwd
-
+import datetime
 
 
 
@@ -20,13 +20,92 @@ getUser = lambda: environ['USERNAME']
 user = getUser()
 
 
+colorama.init()
 
+sys.stdout.write
+def ng():
+    os.system('cls')
+    sys.stdout.write(colorama.Fore.GREEN+'''
+      
+        █  ████    █  █ ████ ████  █   █ █   █    ███ ████  ███  ████ █   █  █
+        █  █  █    █  █ █  █ █  ██ █   █ ██ ██    █   █  █  █ █  █  █ ██ ██  █
+        █  █       ████ █  █ ████  ███ █ █ █ █    █   █  █  █ █  █  █ █ █ █  █
+           █  █    █  █ █  █ █  ██ █ █ █ █   █    █   █  █ █████ █  █ █   █  
+        █  ████    █  █ ████ ████  ███ █ █   █    █   ████ █   █ ████ █   █  █
+''')
+
+    time.sleep(1)
+    os.system('cls')
+    sys.stdout.write(colorama.Fore.CYAN+'''
+      
+        █  ████    █  █ ████ ████  █   █ █   █    ███ ████  ███  ████ █   █  █
+        █  █  █    █  █ █  █ █  ██ █   █ ██ ██    █   █  █  █ █  █  █ ██ ██  █
+        █  █       ████ █  █ ████  ███ █ █ █ █    █   █  █  █ █  █  █ █ █ █  █
+           █  █    █  █ █  █ █  ██ █ █ █ █   █    █   █  █ █████ █  █ █   █  
+        █  ████    █  █ ████ ████  ███ █ █   █    █   ████ █   █ ████ █   █  █
+''')
+    time.sleep(1)
+
+today = datetime.datetime.today()
+a = today.strftime("%Y-%m-%d")
+if a == '2022-01-01':
+    ng(), ng(), ng(), ng(), ng()
+    print(Style.RESET_ALL)
+    os.system('cls')
         
+today = datetime.datetime.today()
+b = today.strftime("%Y-%m-%d")
+if b == '2022-01-01':
+    ng(), ng(), ng(), ng(), ng()
+    print(Style.RESET_ALL)
+    os.system('cls')
+        
+    
+today = datetime.datetime.today()
+c = today.strftime("%Y-%m-%d")
+if c == '2022-01-02':
+    ng(), ng(), ng(), ng(), ng()
+    print(Style.RESET_ALL)
+    os.system('cls')
+         
 
 
+today = datetime.datetime.today()
+d = today.strftime("%Y-%m-%d")
+if d == '2022-01-03':
+    ng(), ng(), ng(), ng(), ng()
+    print(Style.RESET_ALL)
+    os.system('cls')
+    
+today = datetime.datetime.today()
+e = today.strftime("%Y-%m-%d")
+if e == '2022-01-04':
+    ng(), ng(), ng(), ng(), ng()
+    print(Style.RESET_ALL)
+    os.system('cls')
 
+today = datetime.datetime.today()
+f = today.strftime("%Y-%m-%d")
+if f == '2022-01-05':
+    ng(), ng(), ng(), ng(), ng()
+    print(Style.RESET_ALL)
+    os.system('cls')
 
+today = datetime.datetime.today()
+g = today.strftime("%Y-%m-%d")
+if g == '2022-01-06':
+    ng(), ng(), ng(), ng(), ng()
+    print(Style.RESET_ALL)
+    os.system('cls')
+    
+today = datetime.datetime.today()
+g1 = today.strftime("%Y-%m-%d")
+if g1 == '2022-01-07':
+    ng(), ng(), ng(), ng(), ng()
+    print(Style.RESET_ALL)
+    os.system('cls')
 
+os.system('cls')
 while True:
         colorama.init()
         print()
