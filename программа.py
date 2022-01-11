@@ -132,7 +132,9 @@ while True:
             print(Style.RESET_ALL)
             print()
             colorama.init()
-            print(colorama.Fore.CYAN + '  1.VK' , colorama.Fore.RED + '2.YouTube')
+            print(colorama.Fore.GREEN+'     --------------------')
+            print(colorama.Fore.GREEN+'     |',  Fore.CYAN + ' 1.VK' , colorama.Fore.RED + '2.YouTube', Fore.GREEN+' |')
+            print(colorama.Fore.WHITE+'     --------------------')
             print(Style.RESET_ALL)
             print()
             time.sleep(2)
@@ -215,11 +217,16 @@ while True:
         if s == '6':
             print()
             print()
-            print('''   Выберите категорию:
-                  1.Радостная, 2.Популярное, 3.В тренде, 4.Из кино, 5.Вечные хиты, 6.Для дома, 7.Для работы, 8.Аудиокниги, 9.Эксклюзивы,
-                  10.Для тренировок, 11.В нов плей листы, 12. Мощный басс за рулём, 13.Новые хиты, 14.100 хитов, 15.Каверы, 16.Послушать фоном, 17.Для вечеринки,
-                  18.Класика, 19.В настроение, 20.Из игр, 21.Эксперты, 22.Выбор редакции, 23.Для души, 24.Поп, 25.Рок, 26.Реп, 27.Танцевальная,
-                  28.Релакс, 29.Красивая, 30.Крутая, 31.Бодрая, 32.Грустная''')
+            print('   Выберите категорию:')
+            colorama.init()
+            print('\n')
+            print(colorama.Fore.GREEN+'      --------------------------------------------------------------------------------------------------------------------------------------------------')
+            print(colorama.Fore.CYAN+'      |', Fore.WHITE+'1.Радостная, 2.Популярное, 3.В тренде, 4.Из кино, 5.Вечные хиты, 6.Для дома, 7.Для работы, 8.Аудиокниги, 9.Эксклюзивы,')
+            print(colorama.Fore.CYAN+'      |','\n',colorama.Fore.CYAN+'     |', Fore.WHITE+'10.Для тренировок, 11.В нов плей листы, 12. Мощный басс за рулём, 13.Новые хиты, 14.100 хитов, 15.Каверы, 16.Послушать фоном, 17.Для вечеринки,')
+            print(colorama.Fore.CYAN+'      |','\n',colorama.Fore.CYAN+'     |', Fore.WHITE+'18.Класика, 19.В настроение, 20.Из игр, 21.Эксперты, 22.Выбор редакции, 23.Для души, 24.Поп, 25.Рок, 26.Реп, 27.Танцевальная,')
+            print(colorama.Fore.CYAN+'      |','\n',colorama.Fore.CYAN+'     |', Fore.WHITE+'28.Релакс, 29.Красивая, 30.Крутая, 31.Бодрая, 32.Грустная')
+            print(colorama.Fore.GREEN+'      --------------------------------------------------------------------------------------------------------------------------------------------------')
+            print(Style.RESET_ALL)
             print()   
             t = input('  Введите номер --> ')
             os.system('cls')
@@ -391,7 +398,9 @@ while True:
             print()
             print()
             colorama.init()
-            print(colorama.Fore.WHITE + '   1.Komodo Edit 12,', Fore.YELLOW + '2.Проводник,', Fore.GREEN + '3.Музыка,',Fore.CYAN + '4.Radio Record', Fore.RED +'  5.YouTube', Fore.WHITE + '6. Ютуб каналы')
+            print('\n', colorama.Fore.GREEN+'   -----------------------------------------------------------------------------------------------------------------------')
+            print(colorama.Fore.GREEN+'    |', Fore.WHITE + '  1.Komodo Edit 12,', Fore.YELLOW + '2.Проводник,', Fore.GREEN + '3.Музыка,',Fore.CYAN + '4.Radio Record', Fore.RED +'  5.YouTube', Fore.WHITE + '6. Ютуб каналы', Fore.CYAN+'7. ActiveState Komodo IDE 12', Fore.GREEN+'  |')
+            print(colorama.Fore.GREEN+'    -----------------------------------------------------------------------------------------------------------------------')
             print(Style.RESET_ALL)
             print()
             s = input('     Введите номер --> ')
@@ -516,7 +525,18 @@ while True:
                         webbrowser.open_new_tab('https://www.youtube.com/channel/UC6XeLTS99Nx1IrP7pSaDuTQ')
                         os.system('cls')
                 
-                
+            if s == '7':
+                path = pathlib.Path('C:/Program Files (x86)/ActiveState Komodo IDE 12/komodo.exe')
+                if path.exists() == True:
+                        subprocess.call('C:/Program Files (x86)/ActiveState Komodo IDE 12/komodo.exe')
+                        time.sleep(0.5)
+                        os.system('cls')
+                        continue
+                if path.exists() == False:
+                        print("Эта программа у вас не установлена")
+                        time.sleep(3)
+                        os.system('cls')
+               
                 
                 
                 
@@ -1652,11 +1672,20 @@ while True:
         if s == '12':
                 print('  !Все приложения только на android!')
                 time.sleep(0.5)
-                print('         1. Яндекс музыка')
-                print('         2. Ютуб без рекламы (YouTube Vanced)')
-                print('         3. VK Coffe')
-                print('         4. VPN ORBOT')
-                print('         5. BOOM')
+                colorama.init()
+                print('\n')
+                print(colorama.Fore.CYAN+'       |'+Fore.GREEN+'--------------------------------------'+Fore.CYAN+'|')
+                print(colorama.Fore.CYAN+'       |'+Fore.WHITE+' 1. Яндекс музыка'+colorama.Fore.CYAN+'                     |')
+                print(colorama.Fore.CYAN+'       |'+Fore.GREEN+'--------------------------------------'+Fore.CYAN+'|')
+                print(colorama.Fore.CYAN+'       |'+Fore.WHITE+' 2. Ютуб без рекламы (YouTube Vanced)'+colorama.Fore.CYAN+' |')
+                print(colorama.Fore.CYAN+'       |'+Fore.GREEN+'--------------------------------------'+Fore.CYAN+'|')
+                print(colorama.Fore.CYAN+'       |'+Fore.WHITE+' 3. VK Coffe'+colorama.Fore.CYAN+'                          |')
+                print(colorama.Fore.CYAN+'       |'+Fore.GREEN+'--------------------------------------'+Fore.CYAN+'|')
+                print(colorama.Fore.CYAN+'       |'+Fore.WHITE+' 4. VPN ORBOT'+colorama.Fore.CYAN+'                         |')
+                print(colorama.Fore.CYAN+'       |'+Fore.GREEN+'--------------------------------------'+Fore.CYAN+'|')
+                print(colorama.Fore.CYAN+'       |'+Fore.WHITE+' 5. BOOM'+colorama.Fore.CYAN+'                              |')
+                print(colorama.Fore.CYAN+'       |'+Fore.GREEN+'--------------------------------------'+Fore.CYAN+'|')
+                print(Style.RESET_ALL)
                 lk = input('  Введите номер --> ')
                 os.system('cls')
                 if lk ==  '1':
