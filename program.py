@@ -14,6 +14,8 @@ import datetime
 
 
 
+def res():
+    print(Style.RESET_ALL)
 
 
 getUser = lambda: environ['USERNAME']
@@ -117,12 +119,12 @@ py1(), py2()
 os.system('cls')
 while True:
         colorama.init()
-        print()
-        print(colorama.Fore.GREEN + '                                 -------------------------------------------------------------------------------------------------------------------')
-        print(colorama.Fore.GREEN +'                                |', Fore.CYAN+'   1.Yandex.Browser,', Fore.GREEN + '2.Соцсети,', Fore.YELLOW + '3.Я.Почта,', Fore.CYAN +'4.Ввести запрос или ссылку(без https://),', Fore.GREEN + "5.Еда", Fore.RED + '6.Я.Музыка,', Fore.GREEN+'           |')                           
-        print(colorama.Fore.GREEN + '                                |', Fore.WHITE+'              7.Фильмы,', Fore.CYAN + '8.Карта,', Fore.YELLOW + '9.Такси,', Fore.RED + '10.Программы', Fore.CYAN + '11. Я.Диск', Fore.RED + '12. Взломанные приложения', Fore.CYAN+'0 - Выход',Fore.GREEN+'            |', Fore.GREEN+ '\n'+'                                |                                                                                                                   |'+'\n'+'                                |',Fore.WHITE+'                                                      13. Поддержка',Fore.GREEN+'                                              |')
-        print(colorama.Fore.GREEN + '                                |                                                                                                                   |')
-        print(colorama.Fore.GREEN+'                                 --------------------------------------------------------------------------------------------------------------------')
+        print()                                                                                                                                                                         #
+        print(colorama.Fore.GREEN + '                                ╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗')
+        print(colorama.Fore.GREEN +'                                ║', Fore.CYAN+'   1.Yandex.Browser,', Fore.GREEN + '2.Соцсети,', Fore.YELLOW + '3.Я.Почта,', Fore.CYAN +'4.Ввести запрос или ссылку(без https://),', Fore.GREEN + "5.Еда", Fore.RED + '6.Я.Музыка,', Fore.GREEN+'          ║')                           
+        print(colorama.Fore.GREEN + '                                ║', Fore.WHITE+'              7.Фильмы,', Fore.CYAN + '8.Карта,', Fore.YELLOW + '9.Такси,', Fore.RED + '10.Программы', Fore.CYAN + '11. Я.Диск', Fore.RED + '12. Взломанные приложения', Fore.CYAN+'0 - Выход',Fore.GREEN+'           ║', Fore.GREEN+ '\n'+'                                ║                                                                                                                  ║'+'\n'+'                                ║',Fore.WHITE+'                                                      13. Поддержка',Fore.GREEN+'                                             ║')
+        print(colorama.Fore.GREEN + '                                ║                                                                                                                  ║')
+        print(colorama.Fore.GREEN+'                                ╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝')
         print(Style.RESET_ALL)
         print()
         s = input('  Введите номер --> ')
@@ -140,30 +142,95 @@ while True:
             print(colorama.Fore.GREEN + '  Соцсети:')
             print(Style.RESET_ALL)
             print()
-            colorama.init()
-            print(colorama.Fore.GREEN+'     --------------------')
-            print(colorama.Fore.GREEN+'     |',  Fore.CYAN + ' 1.VK' , colorama.Fore.RED + '2.YouTube', Fore.GREEN+' |')
-            print(colorama.Fore.WHITE+'     --------------------')
+            colorama.init()                                                  #
+            print(colorama.Fore.GREEN+'     ╔════════════════════════════════╗')
+            print(colorama.Fore.GREEN+'     ║',  Fore.CYAN + ' 1.VK' , colorama.Fore.RED + '2.YouTube',Fore.WHITE+'3. ВК ФУНКЦИИ', Fore.GREEN+' ║')
+            print(colorama.Fore.GREEN+'     ╚════════════════════════════════╝')
             print(Style.RESET_ALL)
             print()
             time.sleep(2)
-            s = input('''  Введите номер  --> ''')
+            s1 = input('''  Введите номер  --> ''')
             os.system('cls')
-            if s == 'выход':
+            if s1 == 'выход':
                 os.system('cls')
                 continue
             print()
             print()   
  
-            if s == '1':
+            if s1 == '1':
                 webbrowser.open_new_tab('https://vk.com')
                 os.system('cls')
-            if s == '2':
+            if s1 == '2':
                 webbrowser.open_new_tab('https://www.youtube.com/')
                 os.system('cls')
 
-        
-
+            if s1 == '3':
+                ac = input('   Какой у вас в id в вк (имя после @) ═> ')
+                if ac == '':
+                    print('         Вы ничего не ввели - выход')
+                    time.sleep(2)
+                    os.system('cls')
+                    continue
+                    
+                ac2 = input('   Введите свой id (пример 123456789) ═> ')
+                if ac2 == '':
+                    print('         Вы ничего не ввели - выход')
+                    time.sleep(2)
+                    os.system('cls')
+                    continue
+                    
+                os.system('cls')
+                while True:
+                    colorama.init()
+                    print('\n\n')
+                    print(colorama.Fore.GREEN+'         ╔═══════════════════╗')   
+                    print(colorama.Fore.GREEN+'         ║'+Fore.YELLOW+' 1.  Моя траница   '+Fore.GREEN+'║')
+                    print(colorama.Fore.GREEN+'         ║'+Fore.YELLOW+' 2.  Новости       '+Fore.GREEN+'║')
+                    print(colorama.Fore.GREEN+'         ║'+Fore.YELLOW+' 3.  Месснджер     '+Fore.GREEN+'║')
+                    print(colorama.Fore.GREEN+'         ║'+Fore.YELLOW+' 4.  Звонки        '+Fore.GREEN+'║')
+                    print(colorama.Fore.GREEN+'         ║'+Fore.YELLOW+' 5.  Друзья        '+Fore.GREEN+'║')
+                    print(colorama.Fore.GREEN+'         ║'+Fore.YELLOW+' 6.  Сообщества    '+Fore.GREEN+'║')
+                    print(colorama.Fore.GREEN+'         ║'+Fore.YELLOW+' 7.  Фотографии    '+Fore.GREEN+'║')
+                    print(colorama.Fore.GREEN+'         ║'+Fore.YELLOW+' 8.  Музыка        '+Fore.GREEN+'║')
+                    print(colorama.Fore.GREEN+'         ║'+Fore.YELLOW+' 9.  Видео         '+Fore.GREEN+'║')
+                    print(colorama.Fore.GREEN+'         ║'+Fore.YELLOW+' 0.  ВЫХОД         '+Fore.GREEN+'║')
+                    print(colorama.Fore.GREEN+'         ╚═══════════════════╝')
+                    res()
+                    
+                    s2=input('      Что открыть ═> ')
+                    os.system('cls')
+                    if s2 == '1':
+                        webbrowser.open_new_tab('https://vk.com/'+ac)
+                        os.system('cls')
+                    if s2 == '2':
+                         webbrowser.open_new_tab('https://vk.com/feed')
+                         os.system('cls')
+                    if s2 == '3':
+                        webbrowser.open_new_tab('https://vk.com/im?v=')
+                        os.system('cls')
+                    if s2 == '4':
+                        webbrowser.open_new_tab('https://vk.com/calls')
+                        os.system('cls')
+                    if s2 == '5':
+                        webbrowser.open_new_tab('https://vk.com/friends')
+                        os.system('cls')
+                    if s2 == '6':
+                        webbrowser.open_new_tab('https://vk.com/groups')
+                        os.system('cls')
+                    if s2 == '7':
+                        webbrowser.open_new_tab('https://vk.com/albums/'+ac2)
+                        os.system('cls')
+                    if s2 == '8':
+                        webbrowser.open_new_tab('https://vk.com/audios'+ac2)
+                        os.system('cls')
+                    if s2 == '9':
+                        webbrowser.open_new_tab('https://vk.com/video')
+                        os.system('cls')
+                    if s2 == '0':
+                        break
+                        os.system('cls')
+                    
+                    
         if s == '3':
             webbrowser.open_new_tab('https://mail.yandex.ru/')
             time.sleep(1)
@@ -228,13 +295,13 @@ while True:
             print()
             print('   Выберите категорию:')
             colorama.init()
-            print('\n')
-            print(colorama.Fore.GREEN+'      --------------------------------------------------------------------------------------------------------------------------------------------------')
-            print(colorama.Fore.CYAN+'      |', Fore.WHITE+'1.Радостная, 2.Популярное, 3.В тренде, 4.Из кино, 5.Вечные хиты, 6.Для дома, 7.Для работы, 8.Аудиокниги, 9.Эксклюзивы,')
-            print(colorama.Fore.CYAN+'      |','\n',colorama.Fore.CYAN+'     |', Fore.WHITE+'10.Для тренировок, 11.В нов плей листы, 12. Мощный басс за рулём, 13.Новые хиты, 14.100 хитов, 15.Каверы, 16.Послушать фоном, 17.Для вечеринки,')
-            print(colorama.Fore.CYAN+'      |','\n',colorama.Fore.CYAN+'     |', Fore.WHITE+'18.Класика, 19.В настроение, 20.Из игр, 21.Эксперты, 22.Выбор редакции, 23.Для души, 24.Поп, 25.Рок, 26.Реп, 27.Танцевальная,')
-            print(colorama.Fore.CYAN+'      |','\n',colorama.Fore.CYAN+'     |', Fore.WHITE+'28.Релакс, 29.Красивая, 30.Крутая, 31.Бодрая, 32.Грустная')
-            print(colorama.Fore.GREEN+'      --------------------------------------------------------------------------------------------------------------------------------------------------')
+            print('\n')                                                                                                                                                                       #
+            print(colorama.Fore.GREEN+'     ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════')
+            print(colorama.Fore.CYAN+'     ║', Fore.WHITE+'1.Радостная, 2.Популярное, 3.В тренде, 4.Из кино, 5.Вечные хиты, 6.Для дома, 7.Для работы, 8.Аудиокниги, 9.Эксклюзивы,')
+            print(colorama.Fore.CYAN+'     ║','\n',colorama.Fore.CYAN+'    ║', Fore.WHITE+'10.Для тренировок, 11.В нов плей листы, 12. Мощный басс за рулём, 13.Новые хиты, 14.100 хитов, 15.Каверы, 16.Послушать фоном, 17.Для вечеринки,')
+            print(colorama.Fore.CYAN+'     ║','\n',colorama.Fore.CYAN+'    ║', Fore.WHITE+'18.Класика, 19.В настроение, 20.Из игр, 21.Эксперты, 22.Выбор редакции, 23.Для души, 24.Поп, 25.Рок, 26.Реп, 27.Танцевальная,')
+            print(colorama.Fore.CYAN+'     ║','\n',colorama.Fore.CYAN+'    ║', Fore.WHITE+'28.Релакс, 29.Красивая, 30.Крутая, 31.Бодрая, 32.Грустная')
+            print(colorama.Fore.GREEN+'     ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════')
             print(Style.RESET_ALL)
             print()   
             t = input('  Введите номер --> ')
@@ -423,7 +490,9 @@ while True:
             if s == '1':
                 path = pathlib.Path('C:/Program Files (x86)/ActiveState Komodo Edit 12/Komodo.exe')
                 if path.exists() == True:
-                        subprocess.call('C:/Program Files (x86)/ActiveState Komodo Edit 12/Komodo.exe')
+                        program = "C:/Program Files (x86)/ActiveState Komodo Edit 12/Komodo.exe"
+                        process = subprocess.Popen(program)
+                        
                         time.sleep(0.5)
                         os.system('cls')
                         continue
@@ -436,7 +505,8 @@ while True:
             if s == '2':
                 path = pathlib.Path('C:/Windows/Explorer.exe')
                 if path.exists() == True:
-                        subprocess.call('C:/Windows/Explorer.exe')
+                        program = "explorer"
+                        process = subprocess.Popen(program)
                         time.sleep(0.5)
                         os.system('cls')
                         continue
@@ -537,7 +607,8 @@ while True:
             if s == '7':
                 path = pathlib.Path('C:/Program Files (x86)/ActiveState Komodo IDE 12/komodo.exe')
                 if path.exists() == True:
-                        subprocess.call('C:/Program Files (x86)/ActiveState Komodo IDE 12/komodo.exe')
+                        program = "C:/Program Files (x86)/ActiveState Komodo IDE 12/komodo.exe"
+                        process = subprocess.Popen(program)
                         time.sleep(0.5)
                         os.system('cls')
                         continue
@@ -565,7 +636,8 @@ while True:
                 if t == '1':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Alan_Walker_-_Alone.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Alan_Walker_-_Alone.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Alan_Walker_-_Alone.mp3')
+                        
                         os.system('cls')
                         
                     else:
@@ -579,7 +651,7 @@ while True:
                 if t == '2':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Alan_Walker_-_Sing_Me_to_Sleep.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Alan_Walker_-_Sing_Me_to_Sleep.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Alan_Walker_-_Sing_Me_to_Sleep.mp3')
                         os.system('cls')
                         time.sleep(0.5)
                     else:
@@ -592,9 +664,9 @@ while True:
                 if t == '3':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Alan_Walker_AAP_Rocky_-_Live_Fast.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Alan_Walker_AAP_Rocky_-_Live_Fast.mp3"')
-                        os.system('cls')
-                        time.sleep(1)
+                       os.startfile('C:/Users/'+ user +'/01/Alan_Walker_AAP_Rocky_-_Live_Fast.mp3')
+                       os.system('cls')
+                       time.sleep(1)
                         
                     else:
                         print('         Этого фала нет в директории')
@@ -606,7 +678,7 @@ while True:
                 if t == '4':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Alan_Walker_Imanbek_-_Sweet_Dreams.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Alan_Walker_Imanbek_-_Sweet_Dreams.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Alan_Walker_Imanbek_-_Sweet_Dreams.mp3')
                         os.system('cls')
                         time.sleep(1)
                     else:
@@ -618,7 +690,7 @@ while True:
                 if t == '5':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Alan_Walker_ISK_-_Sorry.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Alan_Walker_ISK_-_Sorry.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Alan_Walker_ISK_-_Sorry.mp3')
                         os.system('cls') 
                         time.sleep(1)
                     else:
@@ -633,7 +705,7 @@ while True:
                 if t == '6':
                     path = pathlib.Path('C:/Users/'+ user +'/01/CHVRCHS_Steve_Mac_Chris_Laws_Iain_Cook_Martin_Doherty_Lauren_Mayberry.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/CHVRCHS_Steve_Mac_Chris_Laws_Iain_Cook_Martin_Doherty_Lauren_Mayberry.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/CHVRCHS_Steve_Mac_Chris_Laws_Iain_Cook_Martin_Doherty_Lauren_Mayberry.mp3')
                         os.system('cls')
                         time.sleep(1)
                     else:
@@ -648,7 +720,7 @@ while True:
                 if t == '7':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Clandestina.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Clandestina.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Clandestina.mp3')
                         os.system('cls')
                         time.sleep(1)    
                     else:
@@ -664,7 +736,7 @@ while True:
                 if t == '8':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Eminem_-_Rap_God.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Eminem_-_Rap_God.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Eminem_-_Rap_God.mp3')
                         os.system('cls')
                         time.sleep(1)
                     else:
@@ -681,7 +753,7 @@ while True:
                 if t == '9':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Eva_Simons_-_Bludfire.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Eva_Simons_-_Bludfire.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Eva_Simons_-_Bludfire.mp3')
                         os.system('cls')
                         time.sleep(1)
                     else:
@@ -697,7 +769,7 @@ while True:
                 if t == '10':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Hans_Zimmer_-_End_Credits.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Hans_Zimmer_-_End_Credits.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Hans_Zimmer_-_End_Credits.mp3')
                         os.system('cls')
                         time.sleep(1)
                     else:
@@ -713,7 +785,7 @@ while True:
                 if t == '11':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Katy_Perry_Juicy_J_-_Dark_Horse.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Katy_Perry_Juicy_J_-_Dark_Horse.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Katy_Perry_Juicy_J_-_Dark_Horse.mp3')
                         os.system('cls')
                         time.sleep(1)
                     else:
@@ -729,7 +801,7 @@ while True:
                 if t == '12':
                     path = pathlib.Path('C:/Users/'+ user +'/01/League_of_Legends_Alan_Walker_League_of_Legends_Alan_Walker_Again_-_Legends_Never_Die.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/League_of_Legends_Alan_Walker_League_of_Legends_Alan_Walker_Again_-_Legends_Never_Die.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/League_of_Legends_Alan_Walker_League_of_Legends_Alan_Walker_Again_-_Legends_Never_Die.mp3')
                         os.system('cls')
                         time.sleep(1)
                     else:
@@ -743,7 +815,7 @@ while True:
                 if t == '13':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Leonid_Rudenko_ARITMIYA_-_Rain_Sun.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Leonid_Rudenko_ARITMIYA_-_Rain_Sun.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Leonid_Rudenko_ARITMIYA_-_Rain_Sun.mp3')
                         os.system('cls')
                         time.sleep(1)
                     else:
@@ -757,7 +829,7 @@ while True:
                 if t == '14':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Minelli_-_Rampampam.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Minelli_-_Rampampam.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Minelli_-_Rampampam.mp3')
                         os.system('cls')
                         time.sleep(1)
                     else:
@@ -772,7 +844,7 @@ while True:
                 if t == '15':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Nessa_Barrett_jxdn_-_la_di_die.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Nessa_Barrett_jxdn_-_la_di_die.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Nessa_Barrett_jxdn_-_la_di_die.mp3')
                         os.system('cls')
                         time.sleep(1)
                     else:
@@ -785,7 +857,7 @@ while True:
                 if t == '16':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Parah_Dice_-_Hot.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Parah_Dice_-_Hot.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Parah_Dice_-_Hot.mp3')
                         time.sleep(1)
                         os.system('cls')
                         time.sleep(1)
@@ -798,7 +870,7 @@ while True:
                 if t == '17':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Steve_Aoki_Alan_Walker_Isak_-_Are_You_Lonely.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Steve_Aoki_Alan_Walker_Isak_-_Are_You_Lonely.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Steve_Aoki_Alan_Walker_Isak_-_Are_You_Lonely.mp3')
                         os.system('cls')
                         time.sleep(1)
                     else:
@@ -812,7 +884,7 @@ while True:
                 if t == '18':
                     path = pathlib.Path('C:/Users/'+ user +'/01/TOMYGONE_Amvis_-_What_More.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/TOMYGONE_Amvis_-_What_More.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/TOMYGONE_Amvis_-_What_More.mp3')
                         os.system('cls')
                         time.sleep(1)
                     else:
@@ -824,7 +896,7 @@ while True:
                 if t == '19':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Оксимирон - Цунами.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Оксимирон - Цунами.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Оксимирон - Цунами.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -836,7 +908,7 @@ while True:
                 if t == '20':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Annodomini - Никто не Нужен.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Annodomini - Никто не Нужен.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Annodomini - Никто не Нужен.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -848,7 +920,7 @@ while True:
                 if t == '21':
                     path = pathlib.Path('C:/Users/'+ user +'/01/AC_DC - WAR MACHINE.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/AC_DC - WAR MACHINE.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/AC_DC - WAR MACHINE.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -860,7 +932,7 @@ while True:
                 if t == '22':
                     path = pathlib.Path('C:/Users/'+ user +'/01/AC_DC - T_N_T.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/AC_DC - T_N_T.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/AC_DC - T_N_T.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -872,7 +944,7 @@ while True:
                 if t == '23':
                     path = pathlib.Path('C:/Users/'+ user +'/01/AC_DC - Thunderstruck.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/AC_DC - Thunderstruck.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/AC_DC - Thunderstruck.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -884,7 +956,7 @@ while True:
                 if t == '24':
                     path = pathlib.Path('C:/Users/'+ user +'/01/AC_DC - Highway to Hell.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/AC_DC - Highway to Hell.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/AC_DC - Highway to Hell.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -896,7 +968,7 @@ while True:
                 if t == '25':
                     path = pathlib.Path('C:/Users/'+ user +'/01/AC_DC - Back in Black.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/AC_DC - Back in Black.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/AC_DC - Back in Black.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -908,7 +980,7 @@ while True:
                 if t == '26':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Ghostemane - Fed Up.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Ghostemane - Fed Up.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Ghostemane - Fed Up.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -920,7 +992,7 @@ while True:
                 if t == '27':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Ghostemane - Venom.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Ghostemane - Venom.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Ghostemane - Venom.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -932,7 +1004,7 @@ while True:
                 if t == '28':
                     path = pathlib.Path('C:/Users/'+ user +'/01/uicedeboy - LTE.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/uicedeboy - LTE.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/uicedeboy - LTE.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -944,7 +1016,7 @@ while True:
                 if t == '29':
                     path = pathlib.Path('C:/Users/'+ user +'/01/uicideboy - Paris.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/uicideboy - Paris.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/uicideboy - Paris.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -956,7 +1028,7 @@ while True:
                 if t == '30':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Lil Peep - Star Shopping.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Lil Peep - Star Shopping.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Lil Peep - Star Shopping.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -968,7 +1040,7 @@ while True:
                 if t == '31':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Король и Шут - Лесник.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Король и Шут - Лесник.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Король и Шут - Лесник.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -980,7 +1052,7 @@ while True:
                 if t == '32':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Lost Frequencies - Reality.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Lost Frequencies - Reality.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Lost Frequencies - Reality.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -992,7 +1064,7 @@ while True:
                 if t == '33':
                     path = pathlib.Path('C:/Users/'+ user +'/01/The Score - Head Up.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/The Score - Head Up.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/The Score - Head Up.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -1004,7 +1076,7 @@ while True:
                 if t == '34':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Disturbed - Old Friend.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Disturbed - Old Friend.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Disturbed - Old Friend.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -1016,7 +1088,7 @@ while True:
                 if t == '35':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Король и Шут - Кукла колдуна.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Король и Шут - Кукла колдуна.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Король и Шут - Кукла колдуна.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -1028,7 +1100,7 @@ while True:
                 if t == '36':
                     path = pathlib.Path('C:/Users/'+ user +'/01/БИ-2, oxxxymiron - Пора возвращаться домой.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/БИ-2, oxxxymiron - Пора возвращаться домой.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/БИ-2, oxxxymiron - Пора возвращаться домой.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -1040,7 +1112,7 @@ while True:
                 if t == '37':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Blues Saraceno - Dogs of War.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Blues Saraceno - Dogs of War.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Blues Saraceno - Dogs of War.mp3')
                         os.system('cls')  
                         time.sleep(1)  
                     else:
@@ -1053,7 +1125,7 @@ while True:
                 if t == '38':
                     path = pathlib.Path('C:/Users/'+ user +'/01/БИ-2 - Большие города.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/БИ-2 - Большие города.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/БИ-2 - Большие города.mp3')
                         os.system('cls') 
                         time.sleep(1)  
                     else:
@@ -1065,7 +1137,7 @@ while True:
                 if t == '39':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Thousand Foot Krutch - Take It Out On Me.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Thousand Foot Krutch - Take It Out On Me.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Thousand Foot Krutch - Take It Out On Me.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1077,7 +1149,7 @@ while True:
                 if t == '40':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Skillet - Back to Life.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Skillet - Back to Life.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Skillet - Back to Life.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1089,7 +1161,7 @@ while True:
                 if t == '41':
                     path = pathlib.Path('C:/Users/'+ user +'/01/K.Flay - High Enough.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/K.Flay - High Enough.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/K.Flay - High Enough.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1101,7 +1173,7 @@ while True:
                 if t == '42':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Three Days Grace - So Called Life.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Three Days Grace - So Called Life.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Three Days Grace - So Called Life.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1113,7 +1185,7 @@ while True:
                 if t == '43':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Chvrches, Matt Berninger - My Enemy.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Chvrches, Matt Berninger - My Enemy.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Chvrches, Matt Berninger - My Enemy.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1125,7 +1197,7 @@ while True:
                 if t == '44':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Bishop Briggs - River.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Bishop Briggs - River.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Bishop Briggs - River.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1137,7 +1209,7 @@ while True:
                 if t == '45':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Disturbed - Liberate.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Disturbed - Liberate.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Disturbed - Liberate.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1149,7 +1221,7 @@ while True:
                 if t == '46':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron, Porchy - Earth Burns.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron, Porchy - Earth Burns.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron, Porchy - Earth Burns.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1161,7 +1233,7 @@ while True:
                 if t == '47':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Papa Roach - Last Resort.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Papa Roach - Last Resort.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Papa Roach - Last Resort.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1173,7 +1245,7 @@ while True:
                 if t == '48':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Slipknot - Dead Memories.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Slipknot - Dead Memories.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Slipknot - Dead Memories.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1185,7 +1257,7 @@ while True:
                 if t == '49':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Dope - Die MF Die.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Dope - Die MF Die.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Dope - Die MF Die.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1197,7 +1269,7 @@ while True:
                 if t == '50':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Slipknot - Before I Forget.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Slipknot - Before I Forget.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Slipknot - Before I Forget.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1209,7 +1281,7 @@ while True:
                 if t == '51':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Александр Пушной - Всё идёт по плану.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Александр Пушной - Всё идёт по плану.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Александр Пушной - Всё идёт по плану.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1221,7 +1293,7 @@ while True:
                 if t == '52':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Би-2 - Чёрное солнце.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Би-2 - Чёрное солнце.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Би-2 - Чёрное солнце.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1233,7 +1305,7 @@ while True:
                 if t == '53':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - В книге всё было по-другому (4 раунд, 17ib).mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - В книге всё было по-другому (4 раунд, 17ib).mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - В книге всё было по-другому (4 раунд, 17ib).mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1245,7 +1317,7 @@ while True:
                 if t == '54':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Дело нескольких минут (3 раунд, 17 ib).mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Дело нескольких минут (3 раунд, 17 ib).mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Дело нескольких минут (3 раунд, 17 ib).mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1257,7 +1329,7 @@ while True:
                 if t == '55':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron, Самариддин Раджабов - Ветер перемен (2 раунд 17ib).mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron, Самариддин Раджабов - Ветер перемен (2 раунд 17ib).mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron, Самариддин Раджабов - Ветер перемен (2 раунд 17ib).mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1269,7 +1341,7 @@ while True:
                 if t == '56':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - В долгий путь (1 раунд 17ib).mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - В долгий путь (1 раунд 17ib).mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - В долгий путь (1 раунд 17ib).mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1281,7 +1353,7 @@ while True:
                 if t == '57':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - До зимы.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - До зимы.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - До зимы.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1293,7 +1365,7 @@ while True:
                 if t == '58':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Не от мира сего.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Не от мира сего.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Не от мира сего.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1305,7 +1377,7 @@ while True:
                 if t == '59':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Признаки жизни.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Признаки жизни.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Признаки жизни.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1317,7 +1389,7 @@ while True:
                 if t == '60':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Детектор лжи.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Детектор лжи.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Детектор лжи.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1329,7 +1401,7 @@ while True:
                 if t == '61':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Хитиновый покров.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Хитиновый покров.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Хитиновый покров.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1341,7 +1413,7 @@ while True:
                 if t == '62':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Волапюк.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Волапюк.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Волапюк.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1353,7 +1425,7 @@ while True:
                 if t == '63':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Больше Бена.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Больше Бена.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Больше Бена.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1365,7 +1437,7 @@ while True:
                 if t == '64':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Цифры и цвета.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Цифры и цвета.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Цифры и цвета.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1377,7 +1449,7 @@ while True:
                 if t == '65':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Где нас нет.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Где нас нет.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Где нас нет.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1389,7 +1461,7 @@ while True:
                 if t == '66':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Башня из слоновой кости.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Башня из слоновой кости.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Башня из слоновой кости.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1401,7 +1473,7 @@ while True:
                 if t == '67':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Слово мэра.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Слово мэра.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Слово мэра.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1413,7 +1485,7 @@ while True:
                 if t == '68':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Накануне.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Накануне.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Накануне.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1425,7 +1497,7 @@ while True:
                 if t == '69':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Полигон.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Полигон.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Полигон.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1437,7 +1509,7 @@ while True:
                 if t == '70':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Колыбельная.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Колыбельная.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Колыбельная.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1449,7 +1521,7 @@ while True:
                 if t == '71':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Переплетено.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Переплетено.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Переплетено.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1461,7 +1533,7 @@ while True:
                 if t == '72':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Всего лишь писатель.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Всего лишь писатель.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Всего лишь писатель.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1473,7 +1545,7 @@ while True:
                 if t == '73':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Кем ты стал.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Кем ты стал.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Кем ты стал.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1485,7 +1557,7 @@ while True:
                 if t == '74':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron - Город под подошвой.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron - Город под подошвой.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron - Город под подошвой.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1497,7 +1569,7 @@ while True:
                 if t == '75':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron ft. пиэм ft. J. Makonnen ft. Dinast ft. Letai ft. PALMDROPOV - Reality.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron ft. пиэм ft. J. Makonnen ft. Dinast ft. Letai ft. PALMDROPOV - Reality.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron ft. пиэм ft. J. Makonnen ft. Dinast ft. Letai ft. PALMDROPOV - Reality.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
@@ -1509,7 +1581,7 @@ while True:
                 if t == '76':
                     path = pathlib.Path('C:/Users/'+ user +'/01/Oxxxymiron, Markul - Fata Morgana.mp3')
                     if path.exists() == True:
-                        os.system('"C:/Users/'+ user +'/01/Oxxxymiron, Markul - Fata Morgana.mp3"')
+                        os.startfile('C:/Users/'+ user +'/01/Oxxxymiron, Markul - Fata Morgana.mp3')
                         os.system('cls')
                         time.sleep(1)  
                     else:
