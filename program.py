@@ -127,7 +127,7 @@ while True:
         print(colorama.Fore.GREEN+'                                ╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝')
         print(Style.RESET_ALL)
         print()
-        s = input('  Введите номер --> ')
+        s = input('  Введите номер ═> ')
         os.system('cls')
         if s == '1':
             print()
@@ -149,7 +149,7 @@ while True:
             print(Style.RESET_ALL)
             print()
             time.sleep(2)
-            s1 = input('''  Введите номер  --> ''')
+            s1 = input('''  Введите номер  ═> ''')
             os.system('cls')
             if s1 == 'выход':
                 os.system('cls')
@@ -473,13 +473,13 @@ while True:
         if s == '10':
             print()
             print()
-            colorama.init()
-            print('\n', colorama.Fore.GREEN+'   -----------------------------------------------------------------------------------------------------------------------')
-            print(colorama.Fore.GREEN+'    |', Fore.WHITE + '  1.Komodo Edit 12,', Fore.YELLOW + '2.Проводник,', Fore.GREEN + '3.Музыка,',Fore.CYAN + '4.Radio Record', Fore.RED +'  5.YouTube', Fore.WHITE + '6. Ютуб каналы', Fore.CYAN+'7. ActiveState Komodo IDE 12', Fore.GREEN+'  |')
-            print(colorama.Fore.GREEN+'    -----------------------------------------------------------------------------------------------------------------------')
-            print(Style.RESET_ALL)
+            colorama.init()                                                                                                                                           #
+            print('\n', colorama.Fore.GREEN+'   ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗')
+            print(colorama.Fore.GREEN+'    ║', Fore.WHITE + '  1.Komodo Edit 12,', Fore.YELLOW + '2.Проводник,', Fore.GREEN + '3.Музыка,',Fore.CYAN + '4.Radio Record', Fore.RED +'  5.YouTube', Fore.WHITE + '6. Ютуб каналы', Fore.CYAN+'7. ActiveState Komodo IDE 12', Fore.GREEN+'  ║')
+            print(colorama.Fore.GREEN+'    ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝')
+            print(Style.RESET_ALL)                                                                                                                               #
             print()
-            s = input('     Введите номер --> ')
+            s = input('     Введите номер ═> ')
             os.system('cls')
             if s == 'выход':
                 os.system('cls')
@@ -518,7 +518,7 @@ while True:
                 
             if s == '4':
                 print('\n' + '  1.Канал, 2.Трансляция' + '\n')
-                d = input('  Введите номер --> ')
+                d = input('  Введите номер ═> ')
                 if d == 'выход':
                         os.system('cls')
                         continue
@@ -549,7 +549,7 @@ while True:
                                 os.system('cls')
                                 
             if s == '5':
-                h = input('Введите запрос --> ')
+                h = input('Введите запрос ═> ')
                 if h == 'выход':
                         os.system('cls')
                         continue
@@ -628,7 +628,7 @@ while True:
                 time.sleep(3)
                 os.system('"C:/Users/'+ user +'/-для работы program-/mus.py"')
                 print()
-                t = input('  Введите 1-76 --> ')
+                t = input('  Введите 1-76 ═> ')
                 os.system('cls')
                 print()
                 print()
@@ -1599,23 +1599,26 @@ while True:
                 webbrowser.open_new_tab('https://disk.yandex.ru/client/disk')
         
         if s == '12':
-                print('  !Все приложения только на android!')
+                colorama.init()
+                print(colorama.Fore.GREEN+'    ╔════════════════════════════════════╗')
+                print(colorama.Fore.GREEN+'    ║'+Fore.WHITE+' !Все приложения только на android! '+Fore.GREEN+'║')
+                print(colorama.Fore.GREEN+'    ╚════════════════════════════════════╝')
                 time.sleep(0.5)
                 colorama.init()
                 print('\n')
-                print(colorama.Fore.CYAN+'       |'+Fore.GREEN+'--------------------------------------'+Fore.CYAN+'|')
-                print(colorama.Fore.CYAN+'       |'+Fore.WHITE+' 1. Яндекс музыка'+colorama.Fore.CYAN+'                     |')
-                print(colorama.Fore.CYAN+'       |'+Fore.GREEN+'--------------------------------------'+Fore.CYAN+'|')
-                print(colorama.Fore.CYAN+'       |'+Fore.WHITE+' 2. Ютуб без рекламы (YouTube Vanced)'+colorama.Fore.CYAN+' |')
-                print(colorama.Fore.CYAN+'       |'+Fore.GREEN+'--------------------------------------'+Fore.CYAN+'|')
-                print(colorama.Fore.CYAN+'       |'+Fore.WHITE+' 3. VK Coffe'+colorama.Fore.CYAN+'                          |')
-                print(colorama.Fore.CYAN+'       |'+Fore.GREEN+'--------------------------------------'+Fore.CYAN+'|')
-                print(colorama.Fore.CYAN+'       |'+Fore.WHITE+' 4. VPN ORBOT'+colorama.Fore.CYAN+'                         |')
-                print(colorama.Fore.CYAN+'       |'+Fore.GREEN+'--------------------------------------'+Fore.CYAN+'|')
-                print(colorama.Fore.CYAN+'       |'+Fore.WHITE+' 5. BOOM (vk music)'+colorama.Fore.CYAN+'                   |')
-                print(colorama.Fore.CYAN+'       |'+Fore.GREEN+'--------------------------------------'+Fore.CYAN+'|')
+                print(colorama.Fore.CYAN+'       ╔'+Fore.GREEN+'══════════════════════════════════════'+Fore.CYAN+'╗')
+                print(colorama.Fore.CYAN+'       ║'+Fore.WHITE+' 1. Яндекс музыка'+colorama.Fore.CYAN+'                     ║')
+                print(colorama.Fore.CYAN+'       ╠'+Fore.GREEN+'══════════════════════════════════════'+Fore.CYAN+'╣')
+                print(colorama.Fore.CYAN+'       ║'+Fore.WHITE+' 2. Ютуб без рекламы (YouTube Vanced)'+colorama.Fore.CYAN+' ║')
+                print(colorama.Fore.CYAN+'       ╠'+Fore.GREEN+'══════════════════════════════════════'+Fore.CYAN+'╣')
+                print(colorama.Fore.CYAN+'       ║'+Fore.WHITE+' 3. VK Coffe'+colorama.Fore.CYAN+'                          ║')
+                print(colorama.Fore.CYAN+'       ╠'+Fore.GREEN+'══════════════════════════════════════'+Fore.CYAN+'╣')
+                print(colorama.Fore.CYAN+'       ║'+Fore.WHITE+' 4. VPN ORBOT'+colorama.Fore.CYAN+'                         ║')
+                print(colorama.Fore.CYAN+'       ╠'+Fore.GREEN+'══════════════════════════════════════'+Fore.CYAN+'╣')
+                print(colorama.Fore.CYAN+'       ║'+Fore.WHITE+' 5. BOOM (vk music)'+colorama.Fore.CYAN+'                   ║')
+                print(colorama.Fore.CYAN+'       ╚'+Fore.GREEN+'══════════════════════════════════════'+Fore.CYAN+'╝')
                 print(Style.RESET_ALL)
-                lk = input('  Введите номер --> ')
+                lk = input('  Введите номер ═> ')
                 os.system('cls')
                 if lk ==  '1':
                         print('''\n               Яндекс музыка
@@ -1776,8 +1779,13 @@ while True:
                         os.system('cls')
                         
         if s == '13':
-            print('\n     1. Почта, 2. Тг канал')
-            l = input('\n  Что открыть ->  ')
+            colorama.init()
+            print('\n\n')
+            print(colorama.Fore.GREEN+'                 ╔═══════════════════════╗')
+            print(colorama.Fore.GREEN+'                 ║'+Fore.CYAN+' 1. Почта, 2. Тг канал '+Fore.GREEN+'║')
+            print(colorama.Fore.GREEN+'                 ╚═══════════════════════╝')
+            res()
+            l = input('\n  Что открыть ═>  ')
             os.system('cls')
             if l == '1':
                 colorama.init()
